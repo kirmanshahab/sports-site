@@ -1,0 +1,186 @@
+
+#p{
+    position: sticky;
+    top: 0;
+    z-index: 5;
+        background: #af111c !important;
+}
+#center{
+/*    width: 80%;*/
+/*    margin: 0 auto !important;*/
+    background: #fff;
+}
+#im{
+    height: 25px;
+    width: 50px;
+}
+#fergie{
+    background-image: url(img/fergiestand3.jpg);
+    background-attachment: fixed;
+    width: 100%;
+    height: 700px;
+}
+.ole{
+    background-image: url(img/ole2.jfif);
+    width: 200px;
+    height: 300px;
+}
+.ole2{
+    background-image: url(img/ole3.jpg);
+    width: 200px;
+    height: 300px;
+}
+#ot{
+    background-image: url(img/ot4.jpg);
+    width: 100%;
+    height: 600px;
+    background-attachment: fixed;
+}
+.s{
+    height: 50px;
+    width: 70px;
+}
+.size{
+    min-height: 30px;
+    width: 50px;
+}
+#im1{
+    background: url(img/firstteam.jpg) no-repeat center;
+    height: 500px;
+    width: 100%;
+    overflow: hidden;
+    transition: transform .5s ease;
+}
+#im1:hover{
+    transform: scale(1.1);
+}
+.t{
+  padding-top: 35%;
+    
+}
+.l{
+    border-top: 1px solid red;
+}
+.im2{
+ background: url(img/women.jpg) no-repeat center;
+    width: 612px;
+    height: 360px;
+    overflow: hidden;
+    transition: transform .5s ease;
+}
+.im2:hover{
+    transform: scale(1.1);
+}
+.im3{
+ background: url(img/u233.jpg) no-repeat center;
+    width: 612px;
+    height: 360px;
+     overflow: hidden;
+    transition: transform .5s ease;
+}
+.im3:hover{
+    transform: scale(1.1);
+}
+.im4{
+    background: url(img/u18.jpg) no-repeat center;
+    width: 612px;
+    height: 360px;
+     overflow: hidden;
+    transition: transform .5s ease;
+}
+.im4:hover{
+    transform: scale(1.1);
+}
+.im5{
+    background: url(img/legends.jpg) no-repeat center;
+    width: 612px;
+    height: 360px;
+     overflow: hidden;
+    transition: transform .5s ease;
+}
+.im5:hover{
+    transform: scale(1.1);
+}
+.fl{
+    display: flex;
+    list-style: none;
+}
+.hh{
+    overflow: hidden;
+    transition: transform .5s ease;
+}
+.hh:hover{
+    transform: scale(1.1);
+}
+#old{
+    background: url(img/gettyimages-oldtrafford.jpg) no-repeat;
+/*    background-size: contain;*/
+/*    height: 400px;*/
+    width: 100%;
+    padding-top: 1000px;
+}
+#respo{
+    height: 150px; width: 150px;
+}
+
+
+
+
+/*Responsive Text*/
+@media(max-width:500px){
+.resp{
+ font-size: 5vw;   
+}  
+     #bt{
+        margin-top: 20px;
+        text-align: center;
+    }
+    #slast{
+        text-align: center;
+    }
+    .fl{
+        display: inline-block;
+    }
+    #respo{
+        height: 75px;
+        width: 75px;
+    }
+    #fergie{
+    background-image: url(img/fergiestand3.jpg);
+    background-attachment: fixed;
+    width: 100%;
+    height: 900px;
+}
+}
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
